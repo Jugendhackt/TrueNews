@@ -1,4 +1,4 @@
-![alt text](github.com/Jugendhackt/TrueNews/logo.png "Logo")
+![alt text](github.com/Jugendhackt/TrueNews/icon.png "Logo")
 
 # TrueNews
 
