@@ -1,5 +1,4 @@
-Inline-style: 
-![alt text](github.com/Jugendhackt/TrueNews/logo.png
+![alt text] (github.com/Jugendhackt/TrueNews/logo.png
 
 # TrueNews
 
