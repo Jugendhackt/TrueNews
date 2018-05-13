@@ -1,3 +1,6 @@
+Inline-style: 
+![alt text](github.com/Jugendhackt/TrueNews/logo.png
+
 # TrueNews
 
 Wir wollen ein Tool schreiben, dass eine beliebige Menge von Artikeln von verschiedenen Nachrichtenportalen vergleicht und bestimmt wie weit der Inhalt der Artikel sich unterscheidet. 
