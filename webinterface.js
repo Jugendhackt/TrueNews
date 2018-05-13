@@ -106,8 +106,8 @@ app.use(require('body-parser').urlencoded({
 }));
 
 var con = mysql.createConnection({
-  host: "10.23.42.27",
-  user: "mm",
+  host: "localhost",
+  user: "",
   password: "",
   database: "truenews"
 });
@@ -170,7 +170,8 @@ app.post('/sort', async function(req, res){
 });
 
 app.post('/search', async function(req, res){
-  if (typeof req.body.needle !== 'undefined'){
+  if (typeof req.body.needle !== 'undefined' && req.body.needle.length > 4){
+
 
     var dataset = await searchInDataBase(req.body.needle);
     var messages = "<h1>Suchergebnisse für '" + req.body.needle + "':</h1>";
@@ -200,6 +201,4 @@ app.listen(8080, function () {
 });
 
 /*
-http.createServer(function (req, res) {
-
-}).listen(8080);*/
+*/
